@@ -13,9 +13,9 @@ maliciousGems.each do |line|
 end
 
 maliciousArray.each do |malGem|
-   if fileToScan =~ /\b#{malGem}\b/i
-     `grep #{malGem} ./fileToScan >> bad-gems.txt`   
-   end
+  if fileToScan =~ /^#{malGem}\b/im
+     `grep -i "^#{malGem}\\b" ./fileToScan >> bad-gems.txt`   
+  end   
 end
 
 badGems = File.readlines('bad-gems.txt')
