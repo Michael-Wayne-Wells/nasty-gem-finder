@@ -723,3 +723,29 @@ dt_rake	fc082530768935df1c23040eda62e25975879f3c6cd3f89d33e48435d768b01e
 brakeman-translate_checkstyle_format	aa7e0881e5e0a9e83de6d3c334528df60ae3567b2ef13b4c7cf08a3f89295b28
 chalk_rake	ce58d3ea03a5a2429e3eaf65d0d82c5e827b18a2a4f5d6895090bce350c0ee1e
 branch-raker	74f7460534f6e51aad8e17ccbc6dc993830ac80cf84551ec503142252f8010f3
+paperclip
+private_address_check
+recurly
+rbenv
+ruby-saml
+net-ldap
+ox
+rubyzip
+yajl-ruby
+safemode
+vagrant-vmware-fusion
+Oniguruma
+rack-protection
+loofah
+sanitize
+rails-html-sanitizer
+private_address_check
+ruby-grape
+active-support
+bibtex
+ruby-openid
+webrick
+arrow
+chartkick
+json-jwt
+rack-cors
