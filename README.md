@@ -16,7 +16,9 @@ https://blog.reversinglabs.com/blog/mining-for-malicious-ruby-gems
  chmod +x .customcommand.sh
  source .customcommand.sh
  ```
- * Add contents of the Gemfile you want to test into the fileToTest file by copy and pasting or by running `malgem` command followed by as many arguments as needed seperated by spaces:
+ * Add contents of the Gemfile, Gemfile.lock, or results `gem list` ran in your projects directory into the fileToTest file by copy and pasting 
+ 
+ * Add more names of malicous gems by running `malgem` command followed by as many arguments as needed seperated by spaces:
  
  `malgem EXAMPLEGEM1 EXAMPLEGEM2 EXAMPLEGEM3`
  
